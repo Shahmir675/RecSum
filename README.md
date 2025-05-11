@@ -1,6 +1,6 @@
 # News Recommendation System and Summary Generator
 
-This is a Flask project that implements a news recommendation system and a text summarization feature using Neural Collaborative Filtering and Transformer Model.
+This is a Flask project that implements a news recommendation system and a text summarization feature using Neural Collaborative Filtering and Transformer.
 
 ## Screenshots
 
@@ -11,8 +11,8 @@ This is a Flask project that implements a news recommendation system and a text 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/uppercasee/recNsum.git
-    cd recNsum
+    git clone https://github.com/Shahmir675/RecSum.git
+    cd RecSum
     ```
 
 2. Create a virtual environment:
