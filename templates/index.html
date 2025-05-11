@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Recommendations and Summary Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <nav>
+        <h1>
+            News Recommendation and Summary Generator
+        </h1>
+    </nav>
+    <div class="container">
+      <div class="summary">
+          <h2>Summary Generator</h2>
+          <form id="summaryForm">
+              <textarea type="text" id="summaryInput" name="summary"></textarea>
+              <!-- <label for="summaryInput">Enter Text to summarize</label> -->
+              <button type="submit" class="pulse">Get Summary</button>
+          </form>
+          <div id="summary"></div>
+      </div>
+      <div class="recommendation">
+          <h2>News Recommendation</h2>
+          <form id="recommendationForm">
+            <div class="user-box">
+              <input type="text" id="userId" name="useridrecc">
+              <label for="userId">Enter userID:</label>
+              <button type="submit" class="pulse">Get Recommendations</button>
+            </div>
+          </form>
+          <div id="recommendation"></div>
+      </div>
+    </div>
+    
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
